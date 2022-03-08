@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+header {
+  _position: absolute;
+}
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #6a1cc3;
+  color: #fbfbfb;
+  _position: absolute;
+  width: 391px;
+  height: 95px;
+  left: -1px;
+  top: -1px;
+}
+
+.menu-icon {
+  padding: 0.5rem;
+}
+
+.main-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120.8%;
+  text-transform: uppercase;
+}
+
+.students {
+  color: #6a1cc3;
+  position: absolute;
+  width: 263px;
+  height: 13px;
+  left: 31px;
+  top: 135px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 101.8%;
+  text-transform: uppercase;
+}
+
+.fellow {
+  position: absolute;
+  width: 321px;
+  height: 13px;
+  left: 31px;
+  top: 157px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 93.75%;
+  color: rgba(0, 0, 0, 0.6);
+}
