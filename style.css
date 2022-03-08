@@ -70,9 +70,9 @@ button {
   cursor: pointer;
   width: 30px;
   height: 30px;
-  position: absolute;
-  top: 15rem;
-  left: 530px;
+  position: relative;
+  top: 0.3rem;
+  left: -2rem;
   fill: #6a1cc3;
 }
 
