@@ -1,64 +1,74 @@
 * {
   box-sizing: border-box;
   max-width: 600px;
-}
-
-header {
-  _position: absolute;
+  font-family: montserrat;
 }
 
 .headline {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  gap: 1rem;
   background-color: #6a1cc3;
+  padding-top: 2rem;
   color: #fbfbfb;
-  _position: absolute;
-  width: 391px;
-  height: 95px;
-  left: -1px;
-  top: -1px;
-}
-
-.menu-icon {
-  padding: 0.5rem;
+  align-items: center;
 }
 
 .main-heading {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 120.8%;
-  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 .students {
+  padding-left: 1.5rem;
   color: #6a1cc3;
-  position: absolute;
-  width: 263px;
-  height: 13px;
-  left: 31px;
-  top: 135px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 101.8%;
-  text-transform: uppercase;
+  font-size: 2em;
+  padding-bottom: 0rem;
+  margin: 0;
+  margin-top: 2rem;
 }
 
 .fellow {
+  padding-left: 1.5rem;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: montserrat;
+}
+
+.search {
+  border: 5px #6a1cc3;
+  outline: 3px #6a1cc3;
+}
+
+form {
+  all: unset;
+  _background-color: #4654e1;
+  width: 95%;
+  height: 36px;
+  font: 1.5rem Source Sans Pro;
+  display: flex;
+  justify-content: stretch;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+input {
+  width: 550px;
+  border-color: #6a1cc3;
+}
+
+::placeholder {
+  color: #4b148a61;
+  opacity: 0.7;
+  font-size: 1.5rem;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
   position: absolute;
-  width: 321px;
-  height: 13px;
-  left: 31px;
-  top: 157px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 93.75%;
-  color: rgba(0, 0, 0, 0.6);
+  top: 13.75rem;
+  left: 530px;
+  fill: #6a1cc3;
 }
